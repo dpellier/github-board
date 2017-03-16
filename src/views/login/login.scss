@@ -1,0 +1,22 @@
+
+.login {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+
+    &-action {
+        cursor: pointer;
+        border: solid 1px #000;
+        border-radius: 0;
+        padding: 5px 10px;
+        background-color: #fff;
+        transition: background-color ease .3s;
+
+        &:hover {
+            background-color: darken(#fff, 10);
+        }
+    }
+}

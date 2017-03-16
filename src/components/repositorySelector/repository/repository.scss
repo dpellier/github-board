@@ -1,0 +1,24 @@
+
+.repository {
+    position: relative;
+    cursor: pointer;
+    border: solid 1px #000;
+    background-color: #fff;
+    padding: 10px;
+    transition: ease .3s;
+    transition-property: background-color, color;
+    color: #000;
+
+    &.selected {
+        background-color: #000;
+        color: #fff;
+
+        &:hover {
+            background-color: lighten(#000, 40);
+        }
+    }
+
+    &:hover {
+        background-color: darken(#fff, 10);
+    }
+}

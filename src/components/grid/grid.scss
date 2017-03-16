@@ -1,0 +1,27 @@
+
+@import '../../../styles/common/sizes';
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.selector,
+.card {
+    flex-basis: 100%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+
+    @media screen and (min-width: $screen-tablet) {
+        flex-basis: 50%;
+
+        &:nth-child(2n) {
+            padding: 0 0 10px 5px;
+        }
+
+        &:nth-child(2n + 1) {
+            padding: 0 5px 10px 0;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+
+$organization-header-height: 30px;
+
+.organization {
+    &-header {
+        padding: 5px 10px;
+        background-color: #000;
+        height: $organization-header-height;
+        box-sizing: border-box;
+        color: #fff;
+    }
+
+    &-name {
+        display: inline-block;
+        padding-right: 10px;
+        vertical-align: middle;
+    }
+
+    &-repositories {
+        padding: 5px;
+
+        &.closed {
+            height: 0;
+            overflow: hidden;
+        }
+    }
+
+    .toggle {
+        display: inline-block;
+        cursor: pointer;
+        vertical-align: middle;
+        transition: transform ease .3s;
+
+        &.closed {
+            transform: rotate(-90deg);
+        }
+    }
+
+    .repository {
+        display: inline-block;
+        margin: 5px;
+    }
+}

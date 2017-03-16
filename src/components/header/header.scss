@@ -1,0 +1,33 @@
+
+.header {
+    background-color: #000;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.username {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 13px;
+}
+
+.user-picture {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.action {
+    > span,
+    > em {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    > em {
+        padding-left: 15px;
+    }
+}
