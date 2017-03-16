@@ -5,8 +5,10 @@
 > TODO URL deployed
 
 Powered by
-<img width="50" height="50" src="http://javascriptismagic.github.io/aui/logos/react.png" />
-<img width="50" height="50" src="https://pbs.twimg.com/profile_images/718515839687741440/dGvlzORH.jpg" />
+
+<img width="30" height="30" src="http://javascriptismagic.github.io/aui/logos/react.png" /> [React](https://facebook.github.io/react/) with [Reflux](https://github.com/reflux/refluxjs)
+
+<img width="30" height="30" src="https://pbs.twimg.com/profile_images/718515839687741440/dGvlzORH.jpg" /> [Auth0](https://auth0.com/)
 
 ## How to run your own
 
