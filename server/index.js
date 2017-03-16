@@ -72,4 +72,4 @@ app.get('/api/:userId/logout', (req, res) => {
 });
 
 app.listen(3001);
-console.log('Listening on http://localhost:3001');
+console.log('Server started');

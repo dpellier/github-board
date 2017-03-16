@@ -17,7 +17,11 @@ loaders.push({
 	exclude: ['node_modules']
 });
 
-const envVariables = dotenv.config().parsed;
+const envVariables = Object.assign(dotenv.config().parsed, {
+    API_URL: 'http://localhost:3001/api/',
+    REDIRECT_URL: 'http://localhost:8888/login'
+});
+
 const envValues = Object.keys(envVariables).reduce((obj, key) => {
 	obj[`__${key.toUpperCase()}__`] = JSON.stringify(envVariables[key]);
 	return obj;

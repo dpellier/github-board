@@ -31,7 +31,6 @@ Then create a `.env` file at the root of the project
 ```
 AUTH0_CLIENT_ID=<generated auth0 spa client ID>
 AUTH0_DOMAIN=<auth0 client domain>
-API_URL=<your local api url>
 ```
 
 #### Identity Provider configuration
